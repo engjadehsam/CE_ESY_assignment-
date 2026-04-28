@@ -2,12 +2,12 @@
 #include <string.h>
 
 #define SIZE 10  
-CircularBuffer struct {
+typedef struct {
     char buffer[SIZE];
     int head;
     int tail;
     int count;
-} 
+} CircularBuffer;
 
 void init(CircularBuffer *cb) {
     cb->head = 0;
