@@ -65,7 +65,7 @@ int main() {
 
     printf("Full string: %s\n", full);
 
-    // Write each character to buffer
+    
     for (int i = 0; full[i] != '\0'; i++) {
         writeBuffer(&cb, full[i]);
     }
